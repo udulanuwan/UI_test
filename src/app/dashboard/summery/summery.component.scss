@@ -1,0 +1,41 @@
+.wrapper {
+  display: flex;
+  align-items: stretch;
+  height: 100vh;
+
+  .content {
+    padding: 4em 2em 0 2em;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    background: hsla(31, 15%, 50%, 0.1);
+    .charts-container {
+      background: white;
+      margin-top: 2em;
+      border-radius: 10px;
+      .chart {
+        padding: 2em;
+        overflow: hidden;
+        .card {
+          overflow: hidden;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          transition: 0.3s;
+          google-chart {
+            margin: auto;
+          }
+        }
+      }
+    }
+
+    .tables-container {
+      padding: 2em;
+      background: white;
+      border-radius: 10px;
+      margin-top: 2em;
+      margin-bottom: 2em;
+      .table {
+        background: white;
+      }
+    }
+  }
+}

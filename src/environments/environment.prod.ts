@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  fakeAPI:  'https://jsonplaceholder.typicode.com'
 };

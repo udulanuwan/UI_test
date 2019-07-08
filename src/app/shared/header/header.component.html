@@ -1,0 +1,12 @@
+<div class="navbar">
+
+    <div class="brand item">
+        Company Logo
+    </div>
+    <img (click)="togglePopover()" class="user-image" src="../../../assets/img/user.png" alt="User image">
+
+    <ul id="popover-content" class="list-group" [ngClass]="{active: flag}">
+        <a href="#" class="list-group-item">Profile Settings</a>
+        <a href="#" class="list-group-item">Logout</a>
+    </ul>
+</div>
